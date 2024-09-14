@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Stylesheets -->
+    <link href="/style/style.css" rel="Stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1 class="large-title">MY PORTFOLIO</h1>
+        <h2 class="name">RYAN JONES</h2>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="interests.html">Interests</a></li>
+        </ul>
+    </nav>
+
+    <!-- Projects -->
+    <div class="container">
+        <div class="div-default">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3>My Projects</h3>
+                </div>
+                <div class="col-12">
+                    <p class="card-text">
+                        Below are my projects that I have worked on in my time at university as well as some that I work
+                        on in my own time.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fake shop - current project -->
+    <div class="container">
+        <div class="div-focus">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3>My Current Project: Fake Shop (Fausse Boutique)</h3>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <p class="card-text">
+                        Fausse Boutique is a fake e-commerce store that uses a fake online store API called <a
+                            href="https://fakestoreapi.com/docs">FakeStoreAPI</a> that has all of the data needed to
+                        make an e-commerce site with products, users and baskets.
+                        <br><br>
+                        This project is still a work in progress so there isn't much to show but I have taken some of my
+                        inspiration from some high end shopping sites to give it a professional look.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="/Images/FakeShop/FakeShop.png" class="img-fluid" alt="Fake Shop project image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Major project -->
+    <div class="container">
+        <div class="div-default">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3>My Major Project</h3>
+                </div>
+                <div class="col-12">
+                    <p class="card-text">
+                        My major project was a meal planner site that allowed the user to create, view and save recipes
+                        that them or
+                        other users created. The front-end was coded in HTML, CSS and used Bootstrap for the style and
+                        layout of the
+                        site and JavaScript with some jQuery for displaying, formatting, retrieving and sending data.
+                        The back-end
+                        used a PostgreSQL Database and PHP to access and manipulate the data in the database.
+                        <br><br>
+                        The inspiration for this project was to be able to share recipes with family and friends as well
+                        as planning
+                        meals over a week to help with budgeting and meal prepping because I started to enjoy cooking
+                        while at
+                        university.
+                    </p>
+                </div>
+                <div class="col-12">
+                    <button class="collapse-button">Images of my project</button>
+                    <div class="collapse-content">
+                        <img src="Images/MajorProject/LoginPage.jpg" class="img-fluid">
+                        <caption>
+                            This is the login page for my major project. It also has the register form next to it to
+                            avoid using a
+                            two separate pages for them both.
+                        </caption>
+                        <img src="Images/MajorProject/PasswordChange.jpg" class="img-fluid">
+                        <img src="Images/MajorProject/PlannerPage.jpg" class="img-fluid">
+                        <img src="Images/MajorProject/Recipe.jpg" class="img-fluid">
+                        <img src="Images/MajorProject/Recipes.jpg" class="img-fluid">
+                        <img src="Images/MajorProject/ShoppingList.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz Game -->
+    <div class="container">
+        <div class="div-default">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3>Multiplayer Quiz Game</h3>
+                </div>
+                <div class="col-12">
+                    <p class="card-text">
+                        Once I graduated I decided to make some smaller projects to further improve my skills with
+                        front-end design
+                        and learning to use more APIs. I used <a href="https://opentdb.com/api_config.php">Open Trivia
+                            Database</a>
+                        to learn how to use Postman and how I can use APIs in other projects as this site doesn't
+                        require any API
+                        key to make requests.
+                        <br><br>
+                        Like my major project, this site uses Bootstrap for the responsive design of the site as it
+                        provides a 12
+                        column layout and some pre-made items like cards and buttons to make my development process
+                        quicker and
+                        easier.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Workout App -->
+    <div class="container">
+        <div class="div-default">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 text-center ">
+                    <h3>Workout App</h3>
+                </div>
+                <div class="col-12">
+                    <p class="card-text">
+                        In my final year of university I picked an Android development module and I was tasked with
+                        creating a
+                        workout app to plan workout sessions. The app would allow users to add, remove and edit
+                        exercises as well as
+                        add them to a session. Some workouts, if applicable, could have a drop set mode turned on
+                        for
+                        more variety
+                        with that exercise. I used Jetpack Compose and Material 3 Design functions to create the
+                        app.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button class="collapse-button">Images of my project</button>
+                <div class="collapse-content">
+                    <img src="Images/AppDev/AddExercise.jpg" class="img-fluid" alt="Add Exercise Screen">
+                    <img src="Images/AppDev/DailyExercises.jpg" class="img-fluid" alt="Daily Exercises">
+                    <img src="Images/AppDev/AppPlannerPage.jpg" class="img-fluid" alt="Planner Page">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="/Controller/pageChanges.js"></script>
+</body>
+
+</html>
