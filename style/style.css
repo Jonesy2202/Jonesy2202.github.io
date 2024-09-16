@@ -209,3 +209,34 @@ img {
 
 
 /* Bootstrap override */
+
+/* banner */
+
+.banner {
+    background-color: rgb(179, 5, 5); 
+    color: var(--light);           
+    padding: 25px; 
+    padding-right: 40px;          
+    position: relative;       
+    text-align: center;    
+    font-size: 18px;  
+    margin: 5px;    
+    border-radius: 10px;    
+}
+
+/* Close button */
+.close-btn {
+    position: absolute;
+    right: 10px;            
+    top: 10px;              
+    background-color: transparent;
+    border: none;
+    color: var(--light);          
+    font-size: 40px;        
+    cursor: pointer;        
+}
+
+/* Hide banner when closed */
+.hide {
+    display: none;
+}

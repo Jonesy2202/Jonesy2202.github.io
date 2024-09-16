@@ -12,3 +12,8 @@ buttons.forEach(button => {
         }
     });
 });
+
+
+function closeBanner() {
+    document.getElementById("banner").classList.add("hide");
+}
