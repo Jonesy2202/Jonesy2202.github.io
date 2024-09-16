@@ -163,13 +163,12 @@ nav li a {
     padding: 15px;
     font-weight: bold;
     text-decoration: none;
-    background-color: var(--darkteal);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 nav li a:hover:not(.active) {
-    background-color: var(--teal);
+    background-color: var(--darkteal);
     color: var(--light);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
